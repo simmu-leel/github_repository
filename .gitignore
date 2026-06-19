@@ -1,1 +1,136 @@
-**/*.tfstate
+#shorting
+
+list1=["apple","mango","banana"]
+list1.sort()
+print(list1)
+
+list1.sort(reverse=True)
+print(list1)
+
+list1.sort(key=str.lower)
+print(list1)
+
+['apple', 'banana', 'mango']
+['mango', 'banana', 'apple']
+['apple', 'banana', 'mango']
+
+
+#copy
+
+l1=["apple","mango","banana"]
+l2=[1,2,3]
+l3=l1
+
+print(l1)
+print(l2)
+print(l3)
+
+l4=l1.copy()
+print(l4)
+
+['apple', 'mango', 'banana']
+[1, 2, 3]
+['apple', 'mango', 'banana']
+['apple', 'mango', 'banana']
+['apple', 'mango', 'banana']
+
+
+#join
+
+list1=["a","b","c"]
+list2=[1,2,3]
+
+list3=list1+list2
+print(list3)
+
+['a', 'b', 'c', 1, 2, 3]
+
+
+
+#for loop
+
+list1=["a","b","c"]
+for x in list1:
+    print(x)
+
+
+list1=["a","b","c"]
+for i in range(len(list1)):
+  print(list1[i])
+
+a
+b
+c
+a
+b
+c
+
+
+
+#while loop
+
+list2=["apple","mango","banana"]
+i=0
+while i< len(list2):
+  print(list2[i])
+  i=i+1
+
+
+#while loop
+
+list2=["apple","mango","banana"]
+i=0
+while i< len(list2):
+  print(list2[i])
+  i=i+1
+
+apple
+mango
+banana
+
+
+
+#join two lists using append
+
+list1=["a","b","c"]
+list2=[1,2,3]
+for x in list2:
+  list1.append(x)
+  print(list1)
+
+
+list1=["a","b","c"]
+list2=[1,2,3]
+list1.extend(list2)
+print(list1)
+
+
+list3=[1,2,3,4,5,6,7,8,9]
+print(sum(list3))
+print(max(list3))
+print(min(list3))
+
+
+
+list2=[1,2,3]
+list1.extend(list2)
+print(list1)
+
+
+list3=[1,2,3,4,5,6,7,8,9]
+print(sum(list3))
+print(max(list3))
+print(min(list3))
+
+
+['a', 'b', 'c', 1]
+['a', 'b', 'c', 1, 2]
+['a', 'b', 'c', 1, 2, 3]
+['a', 'b', 'c', 1, 2, 3]
+45
+9
+1
+
+
+l4=l1[:]
+print(l4)
