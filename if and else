@@ -1,0 +1,110 @@
+#task1 = check positive , negative or zero
+
+num = int(input("enter a number: "))
+if num > 5:
+        print("positive")
+elif num < 5:
+        print("negative")
+elif num == 5:
+        print("zero")
+
+
+enter a number: 5
+zero
+
+
+
+#taks3 find the largest of three numbers
+
+password = input("Enter a password: ")
+
+if len(password) > 8:
+    print("strong password")
+else:
+    print("short passwd")
+
+
+Enter a password: 623633327823
+strong password
+
+
+
+#taks4 = login system
+
+username = input("enter username: ")
+password = input("enter password: ")
+
+if username == "admin":
+    if password == "1234":
+        print("login successful")
+    else:
+        print("invalid password")
+else:
+    print("invalid user")
+
+
+enter username: admin
+enter password: 1234
+login successful
+
+
+
+
+#task5 = electricity bill category
+
+num = int(input("enter a number: "))
+
+if num <= 100:
+        print("low usage")
+elif num <= 300:
+        print("medium usage")
+else:
+        print("high usage")
+
+
+enter a number: 789
+high usage
+
+
+
+#task6 = age eligibility checker
+
+num = int(input("enter your age: "))
+
+if 0 <= num <= 12:
+            print("child")
+elif 13 <= num <= 19:
+            print("teenager")
+elif 20 <= num <= 59:
+            print("adult")
+elif num >= 60:
+            print("senior citizen")
+
+
+
+#task7 atm withdrawal
+# assume acount balance is 10000
+balance=10000
+if balance >= 10000:
+  print("your balance is sufficient")
+elif balance < 10000:
+  balance = balance - 10000
+  print("account empty")
+else:
+  print("insufficient balance")
+
+
+
+
+#task8 simple calculator
+
+one = input("enter first number: ")
+two = input("enter second number: ")
+
+print(one + two)
+print(one - two)
+print(one * two)
+print(one / two)
+
+
+
