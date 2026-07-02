@@ -1,3 +1,8 @@
+#In programming, if and else are conditional statements used to make 
+decisions and control the flow of execution based on whether a condition 
+is true or false.
+
+
 #task1 = check positive , negative or zero
 
 num = int(input("enter a number: "))
